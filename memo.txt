@@ -1,3 +1,10 @@
+# conda 환경 만들기
+conda create --name my_new_environment python=3.x
+conda activate my_new_environment
+
+# Requirements.txt 설치
+pip install -r requirements.txt
+
 # 가상환경 만들기 (3.11 version)
 python -m venv ./env
 
@@ -14,5 +21,3 @@ example -> .\env\Scripts\activate.bat
 ## 실행 시,
 (env) 붙음
 
-# Requirements.txt 설치
-pip install -r requirements.txt
