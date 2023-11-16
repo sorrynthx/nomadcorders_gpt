@@ -1,11 +1,11 @@
-# conda 환경 만들기
+# 선택1 conda 가상환경 만들기
 conda create --name my_new_environment python=3.x
 conda activate my_new_environment
 
-# Requirements.txt 설치
+# Requirements.txt 설치 (미리 준비)
 pip install -r requirements.txt
 
-# 가상환경 만들기 (3.11 version)
+# 선택2 가상환경 만들기 (3.11 version)
 python -m venv ./env
 
 # 실행
