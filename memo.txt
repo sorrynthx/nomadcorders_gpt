@@ -1,3 +1,6 @@
+# root 경로에 .env 파일 만들기
+OPENAI_API_KEY="API 키 입력"
+
 # 선택1 conda 가상환경 만들기
 conda create --name my_new_environment python=3.x
 conda activate my_new_environment
@@ -20,4 +23,8 @@ example -> .\env\Scripts\activate.bat
 
 ## 실행 시,
 (env) 붙음
+
+## 가상환경 pyhon 선택
+
+
 
