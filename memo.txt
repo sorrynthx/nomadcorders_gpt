@@ -25,6 +25,7 @@ example -> .\env\Scripts\activate.bat
 (env) 붙음
 
 ## 가상환경 pyhon 선택
+ctrl + shift + p
 
 
 
