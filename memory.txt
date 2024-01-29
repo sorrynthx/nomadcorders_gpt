@@ -1,0 +1,4 @@
+1. Conversation Buffer 메모리
+- 이전 대화 내용을 전체 기억
+
+2. 
