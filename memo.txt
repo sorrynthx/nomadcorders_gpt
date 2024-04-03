@@ -5,16 +5,18 @@ OPENAI_API_KEY="API 키 입력"
 conda create --name my_new_environment python=3.x
 conda activate my_new_environment
 
+# 선택2 가상환경 만들기 (3.11 version)
+python -m venv ./env
+python3.11 -m venv ./env
+
 # Requirements.txt 설치 (미리 준비)
 pip install -r requirements.txt
 
-# 선택2 가상환경 만들기 (3.11 version)
-python -m venv ./env
 
-# 실행
+# 실행 
 https://docs.python.org/ko/3/library/venv.html
 
-## POSIX
+## MAC
 bash/zsh -> $ source <venv>/bin/activate
 
 ## 윈도우
@@ -24,8 +26,6 @@ example -> .\env\Scripts\activate.bat
 ## 실행 시,
 (env) 붙음
 
-## 가상환경 pyhon 선택
+## 가상환경 pyhon 선택 (Windows)
 ctrl + shift + p
-
-
 
